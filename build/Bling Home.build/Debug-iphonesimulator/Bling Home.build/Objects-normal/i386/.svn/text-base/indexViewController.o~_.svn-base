@@ -1,0 +1,2 @@
+/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m:76: warning: property 'secondView' requires method '-secondView' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m:76: warning: property 'secondView' requires the method 'setSecondView:' to be defined - use @synthesize, @dynamic or provide a method implementation

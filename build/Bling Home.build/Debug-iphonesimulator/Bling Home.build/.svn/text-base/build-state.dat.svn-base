@@ -1,0 +1,2337 @@
+TBling Home
+v7
+r0
+t326338852.717144
+cCheck dependencies
+cProcessInfoPlistFile "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Info.plist" Bling_Home-Info.plist
+cCompileXIB "/Users/apple/Desktop/Bling Home2/MainWindow.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/firstViewController.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/secondViewController.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/thirdView.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/fourView.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/fiveView.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/sixView.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/sevenView.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/eightView.xib"
+cCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/nineView.xib"
+cProcessPCH /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch.gch Bling_Home_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o" "/Users/apple/Desktop/Bling Home2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o" "/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o" "/Users/apple/Desktop/Bling Home2/Classes/indexViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o" "/Users/apple/Desktop/Bling Home2/Classes/firstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o" "/Users/apple/Desktop/Bling Home2/Classes/secondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o" "/Users/apple/Desktop/Bling Home2/Classes/thirdView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o" "/Users/apple/Desktop/Bling Home2/Classes/fourView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o" "/Users/apple/Desktop/Bling Home2/Classes/fiveView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o" "/Users/apple/Desktop/Bling Home2/Classes/sixView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o" "/Users/apple/Desktop/Bling Home2/Classes/sevenView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o" "/Users/apple/Desktop/Bling Home2/Classes/eightView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o" "/Users/apple/Desktop/Bling Home2/Classes/nineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home" normal i386
+cGenerateDSYMFile "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app.dSYM" "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home"
+cTouch "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/apple/Desktop/Bling Home2/Bling_Home_Prefix.pch
+c000000004DAF84FC00000000000000BD
+t1303348476
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.h
+c000000004DAF861200000000000001BD
+t1303348754
+s445
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m
+c000000004DAF89060000000000000A3A
+t1303349510
+s2618
+i"Bling_HomeAppDelegate.h"
+i"indexViewController.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/eightView.h
+c000000004DB245E200000000000000C3
+t1303528930
+s195
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/eightView.m
+c000000004DB245E2000000000000057E
+t1303528930
+s1406
+i"eightView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/eightView.xib
+c000000004DB246A400000000000044EE
+t1303529124
+s17646
+
+N/Users/apple/Desktop/Bling Home2/Classes/firstViewController.h
+c000000004DC1105A00000000000002A3
+t1304498266
+s675
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/firstViewController.m
+c000000004DC110990000000000000D9B
+t1304498329
+s3483
+i"firstViewController.h"
+i"secondViewController.h"
+i"thirdView.h"
+i"fourView.h"
+i"fiveView.h"
+i"sixView.h"
+i"sevenView.h"
+i"eightView.h"
+i"nineView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/firstViewController.xib
+c000000004DBBB1220000000000008CFD
+t1304146210
+s36093
+
+N/Users/apple/Desktop/Bling Home2/Classes/fiveView.h
+c000000004DB245AE00000000000000C1
+t1303528878
+s193
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/fiveView.m
+c000000004DB245AE000000000000057B
+t1303528878
+s1403
+i"fiveView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/fiveView.xib
+c000000004DB2467200000000000044EA
+t1303529074
+s17642
+
+N/Users/apple/Desktop/Bling Home2/Classes/fourView.h
+c000000004DB2459E00000000000000C1
+t1303528862
+s193
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/fourView.m
+c000000004DB2459E000000000000057B
+t1303528862
+s1403
+i"fourView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/fourView.xib
+c000000004DB246780000000000004516
+t1303529080
+s17686
+
+N/Users/apple/Desktop/Bling Home2/Classes/indexViewController.h
+c000000004DB240A600000000000001D9
+t1303527590
+s473
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/indexViewController.m
+c000000004DB240AA00000000000007B3
+t1303527594
+s1971
+i"indexViewController.h"
+i"firstViewController.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/nineView.h
+c000000004DB245F200000000000000C1
+t1303528946
+s193
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/nineView.m
+c000000004DB245F2000000000000057B
+t1303528946
+s1403
+i"nineView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/nineView.xib
+c000000004DB246B600000000000044EA
+t1303529142
+s17642
+
+N/Users/apple/Desktop/Bling Home2/Classes/secondViewController.h
+c000000004DC10DBF0000000000000333
+t1304497599
+s819
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/secondViewController.m
+c000000004DC110A90000000000002E63
+t1304498345
+s11875
+i"secondViewController.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/secondViewController.xib
+c000000004DBE20E00000000000007453
+t1304305888
+s29779
+
+N/Users/apple/Desktop/Bling Home2/Classes/sevenView.h
+c000000004DB245D400000000000000C3
+t1303528916
+s195
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/sevenView.m
+c000000004DB245D4000000000000057E
+t1303528916
+s1406
+i"sevenView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/sevenView.xib
+c000000004DB2469400000000000044EE
+t1303529108
+s17646
+
+N/Users/apple/Desktop/Bling Home2/Classes/sixView.h
+c000000004DB245C600000000000000BF
+t1303528902
+s191
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/sixView.m
+c000000004DB245C60000000000000578
+t1303528902
+s1400
+i"sixView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/sixView.xib
+c000000004DB2468400000000000044E6
+t1303529092
+s17638
+
+N/Users/apple/Desktop/Bling Home2/Classes/thirdView.h
+c000000004DB2430000000000000000C3
+t1303528192
+s195
+i<UIKit/UIKit.h>
+
+N/Users/apple/Desktop/Bling Home2/Classes/thirdView.m
+c000000004DB24300000000000000057E
+t1303528192
+s1406
+i"thirdView.h"
+
+N/Users/apple/Desktop/Bling Home2/Classes/thirdView.xib
+c000000004DB24642000000000000459D
+t1303529026
+s17821
+
+N/Users/apple/Desktop/Bling Home2/MainWindow.xib
+c000000004DB0F1380000000000005F58
+t1303441720
+s24408
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList
+c000000004DC0FEE50000000000000615
+t1304493797
+s1557
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+t1304493800
+s51052
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+t1304493801
+s37436
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+t1304498330
+s49164
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+t1304493801
+s37416
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+t1304493801
+s37416
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+t1304498330
+s41776
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+t1304493800
+s6292
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+t1304493801
+s37416
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+t1304498346
+s76800
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+t1304493801
+s37436
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+t1304493801
+s37396
+
+N/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+t1304493800
+s37436
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app
+t1304498347
+s510
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app.dSYM
+t1304498347
+s102
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+t1304498346
+s55952
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Info.plist
+t1303349432
+s603
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/MainWindow.nib
+t1303441758
+s1188
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/PkgInfo
+t1303349432
+s8
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/eightView.nib
+t1303529614
+s1341
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/firstViewController.nib
+t1304151620
+s3091
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/fiveView.nib
+t1303529612
+s1340
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/fourView.nib
+t1303529612
+s1340
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/nineView.nib
+t1303529614
+s1340
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib
+t1304305892
+s2539
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/sevenView.nib
+t1303529614
+s1341
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/sixView.nib
+t1303529614
+s1339
+
+N/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/thirdView.nib
+t1303529612
+s1341
+
+N/Users/apple/Desktop/Bling Home2/main.m
+c000000004DAF84FC0000000000000156
+t1303348476
+s342
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Bling_Home_Prefix.pch
+c000000004DAF84FC00000000000000BD
+t1303348476
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.h
+c000000004DAF861200000000000001BD
+t1303348754
+s445
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m
+c000000004DAF89060000000000000A3A
+t1303349510
+s2618
+i"Bling_HomeAppDelegate.h"
+i"indexViewController.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/eightView.h
+c000000004DB245E200000000000000C3
+t1303528930
+s195
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/eightView.m
+c000000004DB245E2000000000000057E
+t1303528930
+s1406
+i"eightView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/eightView.xib
+c000000004DB246A400000000000044EE
+t1303529124
+s17646
+
+N/Users/y200767/Desktop/Bling Home/Classes/firstViewController.h
+c000000004DB251BC00000000000002A3
+t1303531964
+s675
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/firstViewController.m
+c000000004DB286280000000000000D9B
+t1303545384
+s3483
+i"firstViewController.h"
+i"secondViewController.h"
+i"thirdView.h"
+i"fourView.h"
+i"fiveView.h"
+i"sixView.h"
+i"sevenView.h"
+i"eightView.h"
+i"nineView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/firstViewController.xib
+c000000004DB2857A0000000000008BF0
+t1303545210
+s35824
+
+N/Users/y200767/Desktop/Bling Home/Classes/fiveView.h
+c000000004DB245AE00000000000000C1
+t1303528878
+s193
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/fiveView.m
+c000000004DB245AE000000000000057B
+t1303528878
+s1403
+i"fiveView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/fiveView.xib
+c000000004DB2467200000000000044EA
+t1303529074
+s17642
+
+N/Users/y200767/Desktop/Bling Home/Classes/fourView.h
+c000000004DB2459E00000000000000C1
+t1303528862
+s193
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/fourView.m
+c000000004DB2459E000000000000057B
+t1303528862
+s1403
+i"fourView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/fourView.xib
+c000000004DB246780000000000004516
+t1303529080
+s17686
+
+N/Users/y200767/Desktop/Bling Home/Classes/indexViewController.h
+c000000004DB240A600000000000001D9
+t1303527590
+s473
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/indexViewController.m
+c000000004DB240AA00000000000007B3
+t1303527594
+s1971
+i"indexViewController.h"
+i"firstViewController.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/nineView.h
+c000000004DB245F200000000000000C1
+t1303528946
+s193
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/nineView.m
+c000000004DB245F2000000000000057B
+t1303528946
+s1403
+i"nineView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/nineView.xib
+c000000004DB246B600000000000044EA
+t1303529142
+s17642
+
+N/Users/y200767/Desktop/Bling Home/Classes/secondViewController.h
+c000000004DB7BEC300000000000001FE
+t1303887555
+s510
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/secondViewController.m
+c000000004DB7D5180000000000000C64
+t1303893272
+s3172
+i"secondViewController.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/secondViewController.xib
+c000000004DB7BA630000000000004DEB
+t1303886435
+s19947
+
+N/Users/y200767/Desktop/Bling Home/Classes/sevenView.h
+c000000004DB245D400000000000000C3
+t1303528916
+s195
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/sevenView.m
+c000000004DB245D4000000000000057E
+t1303528916
+s1406
+i"sevenView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/sevenView.xib
+c000000004DB2469400000000000044EE
+t1303529108
+s17646
+
+N/Users/y200767/Desktop/Bling Home/Classes/sixView.h
+c000000004DB245C600000000000000BF
+t1303528902
+s191
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/sixView.m
+c000000004DB245C60000000000000578
+t1303528902
+s1400
+i"sixView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/sixView.xib
+c000000004DB2468400000000000044E6
+t1303529092
+s17638
+
+N/Users/y200767/Desktop/Bling Home/Classes/thirdView.h
+c000000004DB2430000000000000000C3
+t1303528192
+s195
+i<UIKit/UIKit.h>
+
+N/Users/y200767/Desktop/Bling Home/Classes/thirdView.m
+c000000004DB24300000000000000057E
+t1303528192
+s1406
+i"thirdView.h"
+
+N/Users/y200767/Desktop/Bling Home/Classes/thirdView.xib
+c000000004DB24642000000000000459D
+t1303529026
+s17821
+
+N/Users/y200767/Desktop/Bling Home/MainWindow.xib
+c000000004DB0F1380000000000005F58
+t1303441720
+s24408
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList
+c000000004DB7AAF50000000000000621
+t1303882485
+s1569
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+t1303882487
+s51052
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+t1303882487
+s37440
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+t1303887577
+s49068
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+t1303882487
+s37416
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+t1303882487
+s37416
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+t1303882487
+s41780
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+t1303882486
+s6292
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+t1303882487
+s37416
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+t1303893273
+s49332
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+t1303882487
+s37440
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+t1303882487
+s37396
+
+N/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+t1303882487
+s37440
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app
+t1303893273
+s510
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM
+t1303893273
+s102
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+t1303893273
+s37556
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Info.plist
+t1303349432
+s603
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/MainWindow.nib
+t1303441758
+s1188
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/PkgInfo
+t1303349432
+s8
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/eightView.nib
+t1303529614
+s1341
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/firstViewController.nib
+t1303545212
+s2951
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/fiveView.nib
+t1303529612
+s1340
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/fourView.nib
+t1303529612
+s1340
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/nineView.nib
+t1303529614
+s1340
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib
+t1303886529
+s1409
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/sevenView.nib
+t1303529614
+s1341
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/sixView.nib
+t1303529614
+s1339
+
+N/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/thirdView.nib
+t1303529612
+s1341
+
+N/Users/y200767/Desktop/Bling Home/main.m
+c000000004DAF84FC0000000000000156
+t1303348476
+s342
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Bling_Home_Prefix.pch
+c000000004DAF84FB00000000000000BD
+t1303348475
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.h
+c000000004DAF861100000000000001BD
+t1303348753
+s445
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m
+c000000004DAF89060000000000000A3A
+t1303349510
+s2618
+i"Bling_HomeAppDelegate.h"
+i"indexViewController.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/eightView.h
+c000000004DB245E200000000000000C3
+t1303528930
+s195
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/eightView.m
+c000000004DB245E2000000000000057E
+t1303528930
+s1406
+i"eightView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/eightView.xib
+c000000004DB246A400000000000044EE
+t1303529124
+s17646
+
+N/Users/ywt/Desktop/Bling Home/Classes/firstViewController.h
+c000000004DB251BC00000000000002A3
+t1303531964
+s675
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/firstViewController.m
+c000000004DB286270000000000000D9B
+t1303545383
+s3483
+i"firstViewController.h"
+i"secondViewController.h"
+i"thirdView.h"
+i"fourView.h"
+i"fiveView.h"
+i"sixView.h"
+i"sevenView.h"
+i"eightView.h"
+i"nineView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/firstViewController.xib
+c000000004DB285790000000000008BF0
+t1303545209
+s35824
+
+N/Users/ywt/Desktop/Bling Home/Classes/fiveView.h
+c000000004DB245AD00000000000000C1
+t1303528877
+s193
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/fiveView.m
+c000000004DB245AD000000000000057B
+t1303528877
+s1403
+i"fiveView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/fiveView.xib
+c000000004DB2467100000000000044EA
+t1303529073
+s17642
+
+N/Users/ywt/Desktop/Bling Home/Classes/fourView.h
+c000000004DB2459D00000000000000C1
+t1303528861
+s193
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/fourView.m
+c000000004DB2459D000000000000057B
+t1303528861
+s1403
+i"fourView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/fourView.xib
+c000000004DB246770000000000004516
+t1303529079
+s17686
+
+N/Users/ywt/Desktop/Bling Home/Classes/indexViewController.h
+c000000004DB240A600000000000001D9
+t1303527590
+s473
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m
+c000000004DB240AA00000000000007B3
+t1303527594
+s1971
+i"indexViewController.h"
+i"firstViewController.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/nineView.h
+c000000004DB245F100000000000000C1
+t1303528945
+s193
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/nineView.m
+c000000004DB245F1000000000000057B
+t1303528945
+s1403
+i"nineView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/nineView.xib
+c000000004DB246B500000000000044EA
+t1303529141
+s17642
+
+N/Users/ywt/Desktop/Bling Home/Classes/secondViewController.h
+c000000004DAF870A00000000000000D9
+t1303349002
+s217
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/secondViewController.m
+c000000004DB242EA000000000000059E
+t1303528170
+s1438
+i"secondViewController.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/secondViewController.xib
+c000000004DB0EE6C00000000000044A8
+t1303441004
+s17576
+
+N/Users/ywt/Desktop/Bling Home/Classes/sevenView.h
+c000000004DB245D400000000000000C3
+t1303528916
+s195
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/sevenView.m
+c000000004DB245D4000000000000057E
+t1303528916
+s1406
+i"sevenView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/sevenView.xib
+c000000004DB2469400000000000044EE
+t1303529108
+s17646
+
+N/Users/ywt/Desktop/Bling Home/Classes/sixView.h
+c000000004DB245C500000000000000BF
+t1303528901
+s191
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/sixView.m
+c000000004DB245C50000000000000578
+t1303528901
+s1400
+i"sixView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/sixView.xib
+c000000004DB2468400000000000044E6
+t1303529092
+s17638
+
+N/Users/ywt/Desktop/Bling Home/Classes/thirdView.h
+c000000004DB2430000000000000000C3
+t1303528192
+s195
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home/Classes/thirdView.m
+c000000004DB24300000000000000057E
+t1303528192
+s1406
+i"thirdView.h"
+
+N/Users/ywt/Desktop/Bling Home/Classes/thirdView.xib
+c000000004DB24642000000000000459D
+t1303529026
+s17821
+
+N/Users/ywt/Desktop/Bling Home/MainWindow.xib
+c000000004DB0F1370000000000005F58
+t1303441719
+s24408
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList
+c000000004DB2488900000000000005F1
+t1303529609
+s1521
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+t1303527595
+s51044
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+t1303529614
+s37432
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+t1303545369
+s48888
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+t1303529614
+s37408
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+t1303529614
+s37408
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+t1303531965
+s41772
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+t1303349435
+s6284
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+t1303529614
+s37408
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+t1303529614
+s38204
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+t1303529614
+s37432
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+t1303529614
+s37388
+
+N/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+t1303529614
+s37432
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app
+t1303545369
+s510
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM
+t1303545369
+s102
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+t1303545369
+s30268
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Info.plist
+t1303349432
+s603
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/MainWindow.nib
+t1303441757
+s1188
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/PkgInfo
+t1303349432
+s8
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/eightView.nib
+t1303529613
+s1341
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/firstViewController.nib
+t1303545212
+s2951
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/fiveView.nib
+t1303529612
+s1340
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/fourView.nib
+t1303529612
+s1340
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/nineView.nib
+t1303529614
+s1340
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib
+t1303441028
+s1369
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/sevenView.nib
+t1303529613
+s1341
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/sixView.nib
+t1303529613
+s1339
+
+N/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/thirdView.nib
+t1303529612
+s1341
+
+N/Users/ywt/Desktop/Bling Home/main.m
+c000000004DAF84FB0000000000000156
+t1303348475
+s342
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Bling_Home_Prefix.pch
+c000000004DAF84FC00000000000000BD
+t1303348476
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.h
+c000000004DAF861200000000000001BD
+t1303348754
+s445
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.m
+c000000004DAF89060000000000000A3A
+t1303349510
+s2618
+i"Bling_HomeAppDelegate.h"
+i"indexViewController.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/eightView.h
+c000000004DB245E200000000000000C3
+t1303528930
+s195
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/eightView.m
+c000000004DB245E2000000000000057E
+t1303528930
+s1406
+i"eightView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/eightView.xib
+c000000004DB246A400000000000044EE
+t1303529124
+s17646
+
+N/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.h
+c000000004DB251BC00000000000002A3
+t1303531964
+s675
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.m
+c000000004DB286280000000000000D9B
+t1303545384
+s3483
+i"firstViewController.h"
+i"secondViewController.h"
+i"thirdView.h"
+i"fourView.h"
+i"fiveView.h"
+i"sixView.h"
+i"sevenView.h"
+i"eightView.h"
+i"nineView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.xib
+c000000004DBBB1230000000000008CFD
+t1304146211
+s36093
+
+N/Users/ywt/Desktop/Bling Home1/Classes/fiveView.h
+c000000004DB245AE00000000000000C1
+t1303528878
+s193
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/fiveView.m
+c000000004DB245AE000000000000057B
+t1303528878
+s1403
+i"fiveView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/fiveView.xib
+c000000004DB2467200000000000044EA
+t1303529074
+s17642
+
+N/Users/ywt/Desktop/Bling Home1/Classes/fourView.h
+c000000004DB2459E00000000000000C1
+t1303528862
+s193
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/fourView.m
+c000000004DB2459E000000000000057B
+t1303528862
+s1403
+i"fourView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/fourView.xib
+c000000004DB246780000000000004516
+t1303529080
+s17686
+
+N/Users/ywt/Desktop/Bling Home1/Classes/indexViewController.h
+c000000004DB240A600000000000001D9
+t1303527590
+s473
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/indexViewController.m
+c000000004DB240AA00000000000007B3
+t1303527594
+s1971
+i"indexViewController.h"
+i"firstViewController.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/nineView.h
+c000000004DB245F200000000000000C1
+t1303528946
+s193
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/nineView.m
+c000000004DB245F2000000000000057B
+t1303528946
+s1403
+i"nineView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/nineView.xib
+c000000004DB246B600000000000044EA
+t1303529142
+s17642
+
+N/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.h
+c000000004DBE15130000000000000328
+t1304302867
+s808
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.m
+c000000004DBE20840000000000002E56
+t1304305796
+s11862
+i"secondViewController.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.xib
+c000000004DBE20E10000000000007453
+t1304305889
+s29779
+
+N/Users/ywt/Desktop/Bling Home1/Classes/sevenView.h
+c000000004DB245D400000000000000C3
+t1303528916
+s195
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/sevenView.m
+c000000004DB245D4000000000000057E
+t1303528916
+s1406
+i"sevenView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/sevenView.xib
+c000000004DB2469400000000000044EE
+t1303529108
+s17646
+
+N/Users/ywt/Desktop/Bling Home1/Classes/sixView.h
+c000000004DB245C600000000000000BF
+t1303528902
+s191
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/sixView.m
+c000000004DB245C60000000000000578
+t1303528902
+s1400
+i"sixView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/sixView.xib
+c000000004DB2468400000000000044E6
+t1303529092
+s17638
+
+N/Users/ywt/Desktop/Bling Home1/Classes/thirdView.h
+c000000004DB2430000000000000000C3
+t1303528192
+s195
+i<UIKit/UIKit.h>
+
+N/Users/ywt/Desktop/Bling Home1/Classes/thirdView.m
+c000000004DB24300000000000000057E
+t1303528192
+s1406
+i"thirdView.h"
+
+N/Users/ywt/Desktop/Bling Home1/Classes/thirdView.xib
+c000000004DB24642000000000000459D
+t1303529026
+s17821
+
+N/Users/ywt/Desktop/Bling Home1/MainWindow.xib
+c000000004DB0F1380000000000005F58
+t1303441720
+s24408
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList
+c000000004DBB7C2400000000000005FD
+t1304132644
+s1533
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+t1304132647
+s51048
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+t1304132647
+s37432
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+t1304302869
+s49160
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+t1304132647
+s37412
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+t1304132647
+s37412
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+t1304132647
+s41772
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+t1304132647
+s6288
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+t1304132647
+s37412
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+t1304305797
+s77760
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+t1304132647
+s37432
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+t1304132647
+s37392
+
+N/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+t1304132647
+s37432
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app
+t1304305893
+s510
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app.dSYM
+t1304305797
+s102
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+t1304305797
+s55904
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Info.plist
+t1303349432
+s603
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/MainWindow.nib
+t1303441758
+s1188
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/PkgInfo
+t1303349432
+s8
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/eightView.nib
+t1303529614
+s1341
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/firstViewController.nib
+t1304151620
+s3091
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/fiveView.nib
+t1303529612
+s1340
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/fourView.nib
+t1303529612
+s1340
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/nineView.nib
+t1303529614
+s1340
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib
+t1304305893
+s2539
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/sevenView.nib
+t1303529614
+s1341
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/sixView.nib
+t1303529614
+s1339
+
+N/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/thirdView.nib
+t1303529612
+s1341
+
+N/Users/ywt/Desktop/Bling Home1/main.m
+c000000004DAF84FC0000000000000156
+t1303348476
+s342
+i<UIKit/UIKit.h>
+
+N/var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch.gch
+t1303882486
+s15453392
+
+N/var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch.gch
+t1304493800
+s15453392
+
+N/var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch.gch
+t1303349435
+s15453392
+
+N/var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch.gch
+t1304131576
+s15453392
+
+NBling_Home-Info.plist
+c000000004DAF84FC000000000000038D
+t1303348476
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326338852#326338852#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o" "/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186600.397642
+e326186600.481264
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+x/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m326186600#326186600#0(0"0(0#0#64"/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m8610416608#1972"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/Bling_HomeAppDelegate.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o" "/Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575286.935198
+e325575287.015298
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+x/Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m325575286#325575287#0(0"0(0#0#65"/Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m8606848512#1983"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o" "/Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325220395.464350
+e325220395.639304
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+x/Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m325220395#325220395#0(0"0(0#0#61"/Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m8614182112#1939"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/Bling_HomeAppDelegate.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o" "/Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825444.924347
+e325825447.131828
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o
+x/Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.m325825444#325825447#0(0"0(0#0#62"/Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.m8604936192#1950"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/Bling_HomeAppDelegate.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling_HomeAppDelegate.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o" "/Users/apple/Desktop/Bling Home2/Classes/eightView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186601.234494
+e326186601.325532
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+x/Users/apple/Desktop/Bling Home2/Classes/eightView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/apple/Desktop/Bling Home2/Classes/eightView.m326186601#326186601#0(0"0(0#0#52"/Users/apple/Desktop/Bling Home2/Classes/eightView.m8594869152#1948"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/eightView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o" "/Users/y200767/Desktop/Bling Home/Classes/eightView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.649273
+e325575287.723311
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+x/Users/y200767/Desktop/Bling Home/Classes/eightView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/y200767/Desktop/Bling Home/Classes/eightView.m325575287#325575287#0(0"0(0#0#53"/Users/y200767/Desktop/Bling Home/Classes/eightView.m8601371296#1959"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/eightView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o" "/Users/ywt/Desktop/Bling Home/Classes/eightView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.869460
+e325222414.973213
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+x/Users/ywt/Desktop/Bling Home/Classes/eightView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ywt/Desktop/Bling Home/Classes/eightView.m325222414#325222414#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home/Classes/eightView.m8603182208#1915"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/eightView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o" "/Users/ywt/Desktop/Bling Home1/Classes/eightView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.552414
+e325825447.678097
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/eightView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/ywt/Desktop/Bling Home1/Classes/eightView.m325825447#325825447#0(0"0(0#0#50"/Users/ywt/Desktop/Bling Home1/Classes/eightView.m8603855424#1926"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/eightView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/eightView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o" "/Users/apple/Desktop/Bling Home2/Classes/firstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326191130.205384
+e326191130.383075
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+x/Users/apple/Desktop/Bling Home2/Classes/firstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/apple/Desktop/Bling Home2/Classes/firstViewController.m326191130#326191130#0(0"0(0#0#62"/Users/apple/Desktop/Bling Home2/Classes/firstViewController.m8619005760#1968"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/firstViewController.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o" "/Users/y200767/Desktop/Bling Home/Classes/firstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325580376.888536
+e325580377.016901
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+x/Users/y200767/Desktop/Bling Home/Classes/firstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/y200767/Desktop/Bling Home/Classes/firstViewController.m325580376#325580377#0(0"0(0#0#63"/Users/y200767/Desktop/Bling Home/Classes/firstViewController.m8634575488#1979"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/firstViewController.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o" "/Users/ywt/Desktop/Bling Home/Classes/firstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325238169.124825
+e325238169.322219
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+x/Users/ywt/Desktop/Bling Home/Classes/firstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/ywt/Desktop/Bling Home/Classes/firstViewController.m325238169#325238169#0(0"0(0#0#59"/Users/ywt/Desktop/Bling Home/Classes/firstViewController.m8612978624#1935"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/firstViewController.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o" "/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325995669.806173
+e325995669.930790
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o
+x/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/ywt/Desktop/Bling Home1/Classes/firstViewController.m325995669#325995669#0(0"0(0#0#60"/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.m8617974528#1946"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/firstViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o" "/Users/apple/Desktop/Bling Home2/Classes/fiveView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186601.008609
+e326186601.079246
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+x/Users/apple/Desktop/Bling Home2/Classes/fiveView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/apple/Desktop/Bling Home2/Classes/fiveView.m326186601#326186601#0(0"0(0#0#51"/Users/apple/Desktop/Bling Home2/Classes/fiveView.m8590190848#1946"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/fiveView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o" "/Users/y200767/Desktop/Bling Home/Classes/fiveView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.408660
+e325575287.479907
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+x/Users/y200767/Desktop/Bling Home/Classes/fiveView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/y200767/Desktop/Bling Home/Classes/fiveView.m325575287#325575287#0(0"0(0#0#52"/Users/y200767/Desktop/Bling Home/Classes/fiveView.m8607024448#1957"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/fiveView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o" "/Users/ywt/Desktop/Bling Home/Classes/fiveView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.690906
+e325222414.770007
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+x/Users/ywt/Desktop/Bling Home/Classes/fiveView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/ywt/Desktop/Bling Home/Classes/fiveView.m325222414#325222414#0(0"0(0#0#48"/Users/ywt/Desktop/Bling Home/Classes/fiveView.m8611430112#1913"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/fiveView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o" "/Users/ywt/Desktop/Bling Home1/Classes/fiveView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.413367
+e325825447.552308
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/fiveView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ywt/Desktop/Bling Home1/Classes/fiveView.m325825447#325825447#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home1/Classes/fiveView.m8599935392#1924"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/fiveView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fiveView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o" "/Users/apple/Desktop/Bling Home2/Classes/fourView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186600.930419
+e326186601.008480
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+x/Users/apple/Desktop/Bling Home2/Classes/fourView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/apple/Desktop/Bling Home2/Classes/fourView.m326186600#326186601#0(0"0(0#0#51"/Users/apple/Desktop/Bling Home2/Classes/fourView.m8595579456#1946"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/fourView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o" "/Users/y200767/Desktop/Bling Home/Classes/fourView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.331228
+e325575287.408538
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+x/Users/y200767/Desktop/Bling Home/Classes/fourView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/y200767/Desktop/Bling Home/Classes/fourView.m325575287#325575287#0(0"0(0#0#52"/Users/y200767/Desktop/Bling Home/Classes/fourView.m8606574688#1957"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/fourView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o" "/Users/ywt/Desktop/Bling Home/Classes/fourView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.679822
+e325222414.779375
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+x/Users/ywt/Desktop/Bling Home/Classes/fourView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/ywt/Desktop/Bling Home/Classes/fourView.m325222414#325222414#0(0"0(0#0#48"/Users/ywt/Desktop/Bling Home/Classes/fourView.m8612926752#1913"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/fourView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o" "/Users/ywt/Desktop/Bling Home1/Classes/fourView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.361563
+e325825447.453079
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/fourView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ywt/Desktop/Bling Home1/Classes/fourView.m325825447#325825447#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home1/Classes/fourView.m8595287744#1924"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/fourView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/fourView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o" "/Users/apple/Desktop/Bling Home2/Classes/indexViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326191130.118009
+e326191130.205259
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+x/Users/apple/Desktop/Bling Home2/Classes/indexViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/apple/Desktop/Bling Home2/Classes/indexViewController.m326191130#326191130#0(0"0(0#0#62"/Users/apple/Desktop/Bling Home2/Classes/indexViewController.m8619716128#1968"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/indexViewController.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o" "/Users/y200767/Desktop/Bling Home/Classes/indexViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.015424
+e325575287.098362
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+x/Users/y200767/Desktop/Bling Home/Classes/indexViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/y200767/Desktop/Bling Home/Classes/indexViewController.m325575287#325575287#0(0"0(0#0#63"/Users/y200767/Desktop/Bling Home/Classes/indexViewController.m8605129344#1979"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/indexViewController.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o" "/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325224765.831673
+e325224765.943295
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+x/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/ywt/Desktop/Bling Home/Classes/indexViewController.m325224765#325224765#0(0"0(0#0#59"/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m8614513856#1935"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/indexViewController.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o" "/Users/ywt/Desktop/Bling Home1/Classes/indexViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.094532
+e325825447.225585
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o
+x/Users/ywt/Desktop/Bling Home1/Classes/indexViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/ywt/Desktop/Bling Home1/Classes/indexViewController.m325825447#325825447#0(0"0(0#0#60"/Users/ywt/Desktop/Bling Home1/Classes/indexViewController.m8598907488#1946"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/indexViewController.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/indexViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o" "/Users/apple/Desktop/Bling Home2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186600.301704
+e326186600.397525
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+x/Users/apple/Desktop/Bling Home2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/apple/Desktop/Bling Home2/main.m326186600#326186600#0(0"0(0#0#39"/Users/apple/Desktop/Bling Home2/main.m8611335872#1930"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/main.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o" "/Users/y200767/Desktop/Bling Home/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575286.673024
+e325575286.935089
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+x/Users/y200767/Desktop/Bling Home/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/y200767/Desktop/Bling Home/main.m325575286#325575286#0(0"0(0#0#40"/Users/y200767/Desktop/Bling Home/main.m8606795904#1941"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/main.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o" "/Users/ywt/Desktop/Bling Home/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325042235.686766
+e325042235.865159
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+x/Users/ywt/Desktop/Bling Home/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/ywt/Desktop/Bling Home/main.m325042235#325042235#0(0"0(0#0#36"/Users/ywt/Desktop/Bling Home/main.m8618692800#1897"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/main.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o" "/Users/ywt/Desktop/Bling Home1/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825444.922143
+e325825447.094352
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o
+x/Users/ywt/Desktop/Bling Home1/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/ywt/Desktop/Bling Home1/main.m325825444#325825447#0(0"0(0#0#37"/Users/ywt/Desktop/Bling Home1/main.m8605252960#1908"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/main.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o" "/Users/apple/Desktop/Bling Home2/Classes/nineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186601.325699
+e326186601.396689
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+x/Users/apple/Desktop/Bling Home2/Classes/nineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/apple/Desktop/Bling Home2/Classes/nineView.m326186601#326186601#0(0"0(0#0#51"/Users/apple/Desktop/Bling Home2/Classes/nineView.m8604555104#1946"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/nineView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o" "/Users/y200767/Desktop/Bling Home/Classes/nineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.723435
+e325575287.793603
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+x/Users/y200767/Desktop/Bling Home/Classes/nineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/y200767/Desktop/Bling Home/Classes/nineView.m325575287#325575287#0(0"0(0#0#52"/Users/y200767/Desktop/Bling Home/Classes/nineView.m8601281568#1957"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/nineView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o" "/Users/ywt/Desktop/Bling Home/Classes/nineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.871722
+e325222414.988962
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+x/Users/ywt/Desktop/Bling Home/Classes/nineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/ywt/Desktop/Bling Home/Classes/nineView.m325222414#325222414#0(0"0(0#0#48"/Users/ywt/Desktop/Bling Home/Classes/nineView.m8600259520#1913"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/nineView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o" "/Users/ywt/Desktop/Bling Home1/Classes/nineView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.679037
+e325825447.751312
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/nineView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ywt/Desktop/Bling Home1/Classes/nineView.m325825447#325825447#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home1/Classes/nineView.m8599901440#1924"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/nineView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/nineView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o" "/Users/apple/Desktop/Bling Home2/Classes/secondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326191146.603162
+e326191146.868510
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+x/Users/apple/Desktop/Bling Home2/Classes/secondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/apple/Desktop/Bling Home2/Classes/secondViewController.m326191146#326191146#0(0"0(0#0#63"/Users/apple/Desktop/Bling Home2/Classes/secondViewController.m8618214528#1970"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/secondViewController.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o" "/Users/y200767/Desktop/Bling Home/Classes/secondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325586073.266258
+e325586073.445513
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+x/Users/y200767/Desktop/Bling Home/Classes/secondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/y200767/Desktop/Bling Home/Classes/secondViewController.m325586073#325586073#0(0"0(0#0#64"/Users/y200767/Desktop/Bling Home/Classes/secondViewController.m8634590080#1981"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/secondViewController.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o" "/Users/ywt/Desktop/Bling Home/Classes/secondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.031075
+e325222414.690798
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+x/Users/ywt/Desktop/Bling Home/Classes/secondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/ywt/Desktop/Bling Home/Classes/secondViewController.m325222414#325222414#0(0"0(0#0#60"/Users/ywt/Desktop/Bling Home/Classes/secondViewController.m8614381824#1937"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/secondViewController.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o" "/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325998596.829012
+e325998597.065472
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o
+x/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/ywt/Desktop/Bling Home1/Classes/secondViewController.m325998596#325998597#0(0"0(0#0#61"/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.m8619046560#1948"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/secondViewController.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o" "/Users/apple/Desktop/Bling Home2/Classes/sevenView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186601.161513
+e326186601.234362
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+x/Users/apple/Desktop/Bling Home2/Classes/sevenView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/apple/Desktop/Bling Home2/Classes/sevenView.m326186601#326186601#0(0"0(0#0#52"/Users/apple/Desktop/Bling Home2/Classes/sevenView.m8609208320#1948"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/sevenView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o" "/Users/y200767/Desktop/Bling Home/Classes/sevenView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.565212
+e325575287.649148
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+x/Users/y200767/Desktop/Bling Home/Classes/sevenView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/y200767/Desktop/Bling Home/Classes/sevenView.m325575287#325575287#0(0"0(0#0#53"/Users/y200767/Desktop/Bling Home/Classes/sevenView.m8606527392#1959"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/sevenView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o" "/Users/ywt/Desktop/Bling Home/Classes/sevenView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.779489
+e325222414.871610
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+x/Users/ywt/Desktop/Bling Home/Classes/sevenView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ywt/Desktop/Bling Home/Classes/sevenView.m325222414#325222414#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home/Classes/sevenView.m8600253344#1915"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/sevenView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o" "/Users/ywt/Desktop/Bling Home1/Classes/sevenView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.538372
+e325825447.682733
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/sevenView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/ywt/Desktop/Bling Home1/Classes/sevenView.m325825447#325825447#0(0"0(0#0#50"/Users/ywt/Desktop/Bling Home1/Classes/sevenView.m8604667232#1926"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/sevenView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sevenView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o" "/Users/apple/Desktop/Bling Home2/Classes/sixView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186601.079369
+e326186601.161393
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+x/Users/apple/Desktop/Bling Home2/Classes/sixView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/apple/Desktop/Bling Home2/Classes/sixView.m326186601#326186601#0(0"0(0#0#50"/Users/apple/Desktop/Bling Home2/Classes/sixView.m8607900608#1944"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/sixView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o" "/Users/y200767/Desktop/Bling Home/Classes/sixView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.480031
+e325575287.565090
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+x/Users/y200767/Desktop/Bling Home/Classes/sixView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/y200767/Desktop/Bling Home/Classes/sixView.m325575287#325575287#0(0"0(0#0#51"/Users/y200767/Desktop/Bling Home/Classes/sixView.m8606991040#1955"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/sixView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o" "/Users/ywt/Desktop/Bling Home/Classes/sixView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.770119
+e325222414.869340
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+x/Users/ywt/Desktop/Bling Home/Classes/sixView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/ywt/Desktop/Bling Home/Classes/sixView.m325222414#325222414#0(0"0(0#0#47"/Users/ywt/Desktop/Bling Home/Classes/sixView.m8603525696#1911"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/sixView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o" "/Users/ywt/Desktop/Bling Home1/Classes/sixView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.453203
+e325825447.538231
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/sixView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/ywt/Desktop/Bling Home1/Classes/sixView.m325825447#325825447#0(0"0(0#0#48"/Users/ywt/Desktop/Bling Home1/Classes/sixView.m8596169952#1922"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/sixView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/sixView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o" "/Users/apple/Desktop/Bling Home2/Classes/thirdView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186600.860035
+e326186600.930289
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+x/Users/apple/Desktop/Bling Home2/Classes/thirdView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/apple/Desktop/Bling Home2/Classes/thirdView.m326186600#326186600#0(0"0(0#0#52"/Users/apple/Desktop/Bling Home2/Classes/thirdView.m8608373920#1948"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch -c "/Users/apple/Desktop/Bling Home2/Classes/thirdView.m" -o "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o" "/Users/y200767/Desktop/Bling Home/Classes/thirdView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575287.262465
+e325575287.331102
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+x/Users/y200767/Desktop/Bling Home/Classes/thirdView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/y200767/Desktop/Bling Home/Classes/thirdView.m325575287#325575287#0(0"0(0#0#53"/Users/y200767/Desktop/Bling Home/Classes/thirdView.m8606924832#1959"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch -c "/Users/y200767/Desktop/Bling Home/Classes/thirdView.m" -o "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o" "/Users/ywt/Desktop/Bling Home/Classes/thirdView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325222414.129950
+e325222414.679707
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+x/Users/ywt/Desktop/Bling Home/Classes/thirdView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/ywt/Desktop/Bling Home/Classes/thirdView.m325222414#325222414#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home/Classes/thirdView.m8615828256#1915"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home/Classes/thirdView.m" -o "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o"0#
+
+CCompileC "build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o" "/Users/ywt/Desktop/Bling Home1/Classes/thirdView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325825447.269555
+e325825447.361458
+r1
+xCompileC
+xbuild/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o
+x/Users/ywt/Desktop/Bling Home1/Classes/thirdView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/ywt/Desktop/Bling Home1/Classes/thirdView.m325825447#325825447#0(0"0(0#0#50"/Users/ywt/Desktop/Bling Home1/Classes/thirdView.m8598419648#1926"    cd "/Users/ywt/Desktop/Bling Home1"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -include /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch -c "/Users/ywt/Desktop/Bling Home1/Classes/thirdView.m" -o "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/thirdView.o"0#
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/eightView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/firstViewController.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/fiveView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/fourView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/nineView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/secondViewController.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/sevenView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/sixView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/Classes/thirdView.xib"
+r0
+
+CCompileXIB "/Users/apple/Desktop/Bling Home2/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/eightView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/firstViewController.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/fiveView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/fourView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/nineView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/secondViewController.xib"
+s325579326.657576
+e325579329.564305
+r1
+xCompileXIB
+x/Users/y200767/Desktop/Bling Home/Classes/secondViewController.xib
+lSLF07#2@43"CompileXIB Classes/secondViewController.xib325579326#325579329#0(0"0(0#0#66"/Users/y200767/Desktop/Bling Home/Classes/secondViewController.xib8606128736#592"    cd "/Users/y200767/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib" "/Users/y200767/Desktop/Bling Home/Classes/secondViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/sevenView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/sixView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/Classes/thirdView.xib"
+r0
+
+CCompileXIB "/Users/y200767/Desktop/Bling Home/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/eightView.xib"
+s325222413.424911
+e325222413.894181
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/eightView.xib
+lSLF07#2@32"CompileXIB Classes/eightView.xib325222413#325222413#0(0"0(0#0#51"/Users/ywt/Desktop/Bling Home/Classes/eightView.xib8610442464#558"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/eightView.nib" "/Users/ywt/Desktop/Bling Home/Classes/eightView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/firstViewController.xib"
+s325238011.420230
+e325238012.471635
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/firstViewController.xib
+lSLF07#2@42"CompileXIB Classes/firstViewController.xib325238011#325238012#0(0"0(0#0#61"/Users/ywt/Desktop/Bling Home/Classes/firstViewController.xib8612944896#578"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/firstViewController.nib" "/Users/ywt/Desktop/Bling Home/Classes/firstViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/fiveView.xib"
+s325222412.509268
+e325222413.009478
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/fiveView.xib
+lSLF07#2@31"CompileXIB Classes/fiveView.xib325222412#325222413#0(0"0(0#0#50"/Users/ywt/Desktop/Bling Home/Classes/fiveView.xib8601106912#556"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/fiveView.nib" "/Users/ywt/Desktop/Bling Home/Classes/fiveView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/fourView.xib"
+s325222412.402047
+e325222412.973890
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/fourView.xib
+lSLF07#2@31"CompileXIB Classes/fourView.xib325222412#325222412#0(0"0(0#0#50"/Users/ywt/Desktop/Bling Home/Classes/fourView.xib8599642880#556"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/fourView.nib" "/Users/ywt/Desktop/Bling Home/Classes/fourView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/nineView.xib"
+s325222413.511159
+e325222414.030341
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/nineView.xib
+lSLF07#2@31"CompileXIB Classes/nineView.xib325222413#325222414#0(0"0(0#0#50"/Users/ywt/Desktop/Bling Home/Classes/nineView.xib8603538752#556"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/nineView.nib" "/Users/ywt/Desktop/Bling Home/Classes/nineView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/secondViewController.xib"
+s325133828.313861
+e325133828.755800
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/secondViewController.xib
+lSLF07#2@43"CompileXIB Classes/secondViewController.xib325133828#325133828#0(0"0(0#0#62"/Users/ywt/Desktop/Bling Home/Classes/secondViewController.xib8616130880#580"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib" "/Users/ywt/Desktop/Bling Home/Classes/secondViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/sevenView.xib"
+s325222413.009583
+e325222413.511053
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/sevenView.xib
+lSLF07#2@32"CompileXIB Classes/sevenView.xib325222413#325222413#0(0"0(0#0#51"/Users/ywt/Desktop/Bling Home/Classes/sevenView.xib8614409888#558"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/sevenView.nib" "/Users/ywt/Desktop/Bling Home/Classes/sevenView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/sixView.xib"
+s325222412.974006
+e325222413.424798
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/sixView.xib
+lSLF07#2@30"CompileXIB Classes/sixView.xib325222412#325222413#0(0"0(0#0#49"/Users/ywt/Desktop/Bling Home/Classes/sixView.xib8614751744#554"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/sixView.nib" "/Users/ywt/Desktop/Bling Home/Classes/sixView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/Classes/thirdView.xib"
+s325222409.172837
+e325222412.401865
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/Classes/thirdView.xib
+lSLF07#2@32"CompileXIB Classes/thirdView.xib325222409#325222412#0(0"0(0#0#51"/Users/ywt/Desktop/Bling Home/Classes/thirdView.xib8614516576#558"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/thirdView.nib" "/Users/ywt/Desktop/Bling Home/Classes/thirdView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home/MainWindow.xib"
+s325134556.693359
+e325134557.092220
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib325134556#325134557#0(0"0(0#0#44"/Users/ywt/Desktop/Bling Home/MainWindow.xib8620293984#552"    cd "/Users/ywt/Desktop/Bling Home"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/MainWindow.nib" "/Users/ywt/Desktop/Bling Home/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/eightView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.xib"
+s325844417.748926
+e325844420.729192
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.xib
+lSLF07#2@42"CompileXIB Classes/firstViewController.xib325844417#325844420#0(0"0(0#0#62"/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.xib8626010848#581"    cd "/Users/ywt/Desktop/Bling Home1"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/firstViewController.nib" "/Users/ywt/Desktop/Bling Home1/Classes/firstViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/fiveView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/fourView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/nineView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.xib"
+s325998693.078580
+e325998693.555169
+r1
+xCompileXIB
+x/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.xib
+lSLF07#2@43"CompileXIB Classes/secondViewController.xib325998693#325998693#0(0"0(0#0#63"/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.xib8615812704#583"    cd "/Users/ywt/Desktop/Bling Home1"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/secondViewController.nib" "/Users/ywt/Desktop/Bling Home1/Classes/secondViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/sevenView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/sixView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/Classes/thirdView.xib"
+r0
+
+CCompileXIB "/Users/ywt/Desktop/Bling Home1/MainWindow.xib"
+r0
+
+CGenerateDSYMFile "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app.dSYM" "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home"
+s326191146.984551
+e326191147.099968
+r1
+xGenerateDSYMFile
+x/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app.dSYM
+x/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Bling Home.app.dSYM" "build/Debug-iphonesimulator/Bling Home.app/Bling Home"326191146#326191147#0(0"0(0#0#86"/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home8617514528#380"    cd "/Users/apple/Desktop/Bling Home2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home" -o "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM" "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home"
+s325586073.477166
+e325586073.518176
+r1
+xGenerateDSYMFile
+x/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM
+x/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Bling Home.app.dSYM" "build/Debug-iphonesimulator/Bling Home.app/Bling Home"325586073#325586073#0(0"0(0#0#87"/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home8637860416#383"    cd "/Users/y200767/Desktop/Bling Home"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home" -o "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM" "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home"
+s325238169.370087
+e325238169.480864
+r1
+xGenerateDSYMFile
+x/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM
+x/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Bling Home.app.dSYM" "build/Debug-iphonesimulator/Bling Home.app/Bling Home"325238169#325238169#0(0"0(0#0#83"/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home8621630464#371"    cd "/Users/ywt/Desktop/Bling Home"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home" -o "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app.dSYM" "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home"
+s325998597.095118
+e325998597.130997
+r1
+xGenerateDSYMFile
+x/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app.dSYM
+x/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Bling Home.app.dSYM" "build/Debug-iphonesimulator/Bling Home.app/Bling Home"325998597#325998597#0(0"0(0#0#84"/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home8619847136#374"    cd "/Users/ywt/Desktop/Bling Home1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home" -o "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app.dSYM"0#
+
+CLd "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home" normal i386
+s326191146.868618
+e326191146.984430
+r1
+xLd
+x/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+xnormal
+xi386
+lSLF07#2@91"Link /Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home326191146#326191146#0(0"0(0#0#0"8617347776#895"    cd "/Users/apple/Desktop/Bling Home2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" -filelist "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Bling Home"0#
+
+CLd "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home" normal i386
+s325586073.445625
+e325586073.477046
+r1
+xLd
+x/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+xnormal
+xi386
+lSLF07#2@92"Link /Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home325586073#325586073#0(0"0(0#0#0"8638244256#900"    cd "/Users/y200767/Desktop/Bling Home"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" -filelist "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home"0#
+
+CLd "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home" normal i386
+s325238169.322322
+e325238169.369973
+r1
+xLd
+x/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+xnormal
+xi386
+lSLF07#2@88"Link /Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home325238169#325238169#0(0"0(0#0#0"8622082368#880"    cd "/Users/ywt/Desktop/Bling Home"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" -filelist "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Bling Home"0#
+
+CLd "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home" normal i386
+s325998597.065570
+e325998597.095008
+r1
+xLd
+x/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home
+xnormal
+xi386
+lSLF07#2@89"Link /Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home325998597#325998597#0(0"0(0#0#0"8620175456#885"    cd "/Users/ywt/Desktop/Bling Home1"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" "-F/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator" -filelist "/Users/ywt/Desktop/Bling Home1/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Objects-normal/i386/Bling Home.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Bling Home"0#
+
+CProcessInfoPlistFile "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app/Info.plist" Bling_Home-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Info.plist" Bling_Home-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Info.plist" Bling_Home-Info.plist
+s325042232.277742
+e325042232.361641
+r1
+xProcessInfoPlistFile
+x/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Info.plist
+xBling_Home-Info.plist
+lSLF07#2@29"Process Bling_Home-Info.plist325042232#325042232#0(0"0(0#0#51"/Users/ywt/Desktop/Bling Home/Bling_Home-Info.plist8315173711782111232#467"    cd "/Users/ywt/Desktop/Bling Home"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Bling_Home-Info.plist -genpkginfo "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app/Info.plist"0#
+
+CProcessInfoPlistFile "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app/Info.plist" Bling_Home-Info.plist
+r0
+
+CProcessPCH /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch.gch Bling_Home_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s325575285.546404
+e325575286.672888
+r1
+xProcessPCH
+x/var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch.gch
+xBling_Home_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Bling_Home_Prefix.pch325575285#325575286#0(0"0(0#0#55"/Users/y200767/Desktop/Bling Home/Bling_Home_Prefix.pch7308620126921125888#1833"    cd "/Users/y200767/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/y200767/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -c "/Users/y200767/Desktop/Bling Home/Bling_Home_Prefix.pch" -o /var/folders/77/77E1gw6jEu01RzfBnwrPIU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Bling_Home_Prefix-ekexmihytktnwgdnnvkosbsisgvt/Bling_Home_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch.gch Bling_Home_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326186597.784301
+e326186600.301508
+r1
+xProcessPCH
+x/var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch.gch
+xBling_Home_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Bling_Home_Prefix.pch326186597#326186600#0(0"0(0#0#54"/Users/apple/Desktop/Bling Home2/Bling_Home_Prefix.pch8609637088#1823"    cd "/Users/apple/Desktop/Bling Home2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator" "-I/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/include" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/apple/Desktop/Bling Home2/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -c "/Users/apple/Desktop/Bling Home2/Bling_Home_Prefix.pch" -o /var/folders/dR/dReR+8QsEPG6lEb+IqOAHE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-bizcxyzoylggymaltklukjdbgljg/Bling_Home_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch.gch Bling_Home_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s325042233.833051
+e325042235.686592
+r1
+xProcessPCH
+x/var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch.gch
+xBling_Home_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Bling_Home_Prefix.pch325042233#325042235#0(0"0(0#0#51"/Users/ywt/Desktop/Bling Home/Bling_Home_Prefix.pch8607534336#1793"    cd "/Users/ywt/Desktop/Bling Home"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-generated-files.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-own-target-headers.hmap" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-all-target-headers.hmap" -iquote "/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/Bling Home-project-headers.hmap" "-F/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator" "-I/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/include" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources/i386" "-I/Users/ywt/Desktop/Bling Home/build/Bling Home.build/Debug-iphonesimulator/Bling Home.build/DerivedSources" -c "/Users/ywt/Desktop/Bling Home/Bling_Home_Prefix.pch" -o /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-blenrwzutftxdzasklwkdaxelmxq/Bling_Home_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/tG/tGz3Kxx8H2O4vIqQDrWnn++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bling_Home_Prefix-ehuvxsznrauvazbfulnqftvpestu/Bling_Home_Prefix.pch.gch Bling_Home_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app"
+s326191147.100073
+e326191147.103021
+r1
+xTouch
+x/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app
+lSLF07#2@81"Touch /Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app326191147#326191147#0(0"0(0#0#0"8619011040#273"    cd "/Users/apple/Desktop/Bling Home2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/apple/Desktop/Bling Home2/build/Debug-iphonesimulator/Bling Home.app"0#
+
+CTouch "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app"
+s325586073.518269
+e325586073.521957
+r1
+xTouch
+x/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app
+lSLF07#2@82"Touch /Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app325586073#325586073#0(0"0(0#0#0"8637493664#275"    cd "/Users/y200767/Desktop/Bling Home"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/y200767/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app"0#
+
+CTouch "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app"
+s325238169.480963
+e325238169.483879
+r1
+xTouch
+x/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app
+lSLF07#2@78"Touch /Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app325238169#325238169#0(0"0(0#0#0"8623423776#267"    cd "/Users/ywt/Desktop/Bling Home"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/ywt/Desktop/Bling Home/build/Debug-iphonesimulator/Bling Home.app"0#
+
+CTouch "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app"
+s325998693.556709
+e325998693.559467
+r1
+xTouch
+x/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app
+lSLF07#2@79"Touch /Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app325998693#325998693#0(0"0(0#0#0"8618693088#269"    cd "/Users/ywt/Desktop/Bling Home1"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/ywt/Desktop/Bling Home1/build/Debug-iphonesimulator/Bling Home.app"0#
+
