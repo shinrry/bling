@@ -57,7 +57,7 @@
 	[slideUpView removeFromSuperview];
 	slideUpViewShowing=!slideUpViewShowing;//可能有问题
 	int button_tag = [sender tag];
-	NSLog(@"wode按钮的序列%d", button_tag);
+	NSLog(@"button tag: %d", button_tag);
 	secondViewController *secondTemp=[[secondViewController alloc]initWithNibName:@"secondViewController" bundle:nil onPage:button_tag];//方法重点
 		
 

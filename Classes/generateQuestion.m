@@ -51,17 +51,17 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
 	
     if (kind < 6) {
         if (ADD == getBinaryRandom()) {
-            *pSymbol = '+';
+            symbol = '+';
         }
         else {
-            *pSymbol = '-';
+            symbol = '-';
         }
     }
     else if (6 == kind) {
-        *pSymbol = '*';
+        symbol = '*';
     }
     else {
-        *pSymbol = '/';
+        symbol = '/';
     }
 	
     range = getGeneratorRange(kind);
@@ -74,7 +74,7 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
         case 3:
         case 4:
         case 5:
-            if (ADD == symbol) {
+            if ('+' == symbol) {
                 answer = num1 + num2;
             }
             else {
@@ -100,6 +100,11 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
     *pNum2 = num2;
     *pAnswer = answer;
     *pSymbol = symbol;
+	
+	int i;
+	for (i = 0; i < 4; i++) {
+		//NSLog(@"options %d : %d", i, options[i]);
+	}
 }
 
 void getOptions(int answer, const int wrongAnswer[], int options[])
@@ -119,7 +124,15 @@ void getOptions(int answer, const int wrongAnswer[], int options[])
 	} while (wrongPosition2 == wrongPosition1 || wrongPosition2 == rightPosition);
 	options[wrongPosition2] = wrongAnswer[1];
 	
-	options[6 - rightPosition - wrongPosition1 - wrongPosition2] = wrongAnswer[3];
+	options[6 - rightPosition - wrongPosition1 - wrongPosition2] = wrongAnswer[2];
+	
+	/*int i;
+	for (i = 0; i < 3; i++) {
+		//NSLog(@"wrong options %d : %d", i, wrongAnswer[i]);
+	}
+	for (i = 0; i < 4; i++) {
+		//NSLog(@"options %d : %d", i, options[i]);
+	}*/
 }
 
 void getTwoRandomFromOne(int *pa, int *pb, int range)
@@ -165,11 +178,11 @@ void getTwoUniqueRandomFromOne(int *pa, int *pb, int range)
 
 void getWrongAnswers(int kind, int answer, int wrongAnswer[])
 {
-    int range = getAnswerRange(kind);
+    int opt1_left, diff1, diff2, range;
 	
-    if (kind < 7) {
-        int opt1_left, diff1, diff2;
-		
+	range = getAnswerRange(kind);
+	
+    if (range > 9) {        		
         if (answer + 10 >= range) {
             opt1_left = 1;
         }
@@ -183,15 +196,30 @@ void getWrongAnswers(int kind, int answer, int wrongAnswer[])
         getTwoUniqueRandomFromOne(&diff1, &diff2, 9);
         if (opt1_left) {
             wrongAnswer[0] = answer - 10;
-            wrongAnswer[1] - answer - diff1;
-            wrongAnswer[2] - answer - diff2;
+            wrongAnswer[1] = answer - diff1;
+            wrongAnswer[2] = answer - diff2;
         }
         else {
             wrongAnswer[0] = answer + 10;
-            wrongAnswer[1] - answer + diff1;
-            wrongAnswer[2] - answer + diff2;
+            wrongAnswer[1] = answer + diff1;
+            wrongAnswer[2] = answer + diff2;
         }
     }
+	else {
+		do {
+			wrongAnswer[0] = getRandomFromOne(range);
+			//NSLog(@"%d", wrongAnswer[0]);
+		} while (wrongAnswer[0] == answer);
+		do {
+			wrongAnswer[1] = getRandomFromOne(range);
+			//NSLog(@"%d", wrongAnswer[1]);
+		} while (wrongAnswer[1] == answer || wrongAnswer[1] == wrongAnswer[0]);
+		do {
+			wrongAnswer[2] = getRandomFromOne(range);
+			//NSLog(@"%d", wrongAnswer[2]);
+		} while (wrongAnswer[2] == answer || wrongAnswer[2] == wrongAnswer[0] || wrongAnswer[2] == wrongAnswer[1]);
+	}
+
 }
 
 void getWrongNum(int num1, int wrongAnswer[])
@@ -206,6 +234,8 @@ int getAnswerRange(int kind)
 {
     switch (kind) {
         case 1:
+		case 7:
+        case 8:
             return 9;
         case 2:
         case 3:
@@ -215,8 +245,6 @@ int getAnswerRange(int kind)
         case 5:
             return 99;
         case 6:
-        case 7:
-        case 8:
             return 81;
     }
 }

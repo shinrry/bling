@@ -9,15 +9,16 @@
 #import "secondViewController.h"
 #import "nstimer.h"
 #import "generateQuestion.h"
-#import <NSArray.h>
 
 @implementation secondViewController
-@synthesize firstNumb,secondNum,resultNum,symbol,question,total,correct, answer;
+
+@synthesize num1, num2, answer, symbol, question, total, correct;
+@synthesize option0, option1, option2, option3;
 @synthesize buttonPressed,runNotRepeat,gameTime;//moveVelocity;
 @synthesize answer1,answer2,answer3,answer4;
 @synthesize lastAnimation;
 @synthesize finshView;
-#define speed 3.92//这样设置可以改变按钮走过的时间
+#define speed 2.5
 
 - (id)initWithNibName:(NSString*)nibName bundle:(NSBundle*)nibBundle onPage:(int)button_id
 {
@@ -27,32 +28,36 @@
         return nil;
     }
     selectQuestionSender = button_id;
+	
+	NSLog(@"entering second view");
     return self;
 }
 
 
 
 -(IBAction)answer1Pressed:(UIButton*)answerButton1{
-    buttonPressed=YES;
-    if(answerButton1.tag!=symbol)
+	NSLog(@"you made an answer, total: %d; correct: %d", total, correct);
+    buttonPressed = YES;
+	
+	NSString *ans = [[NSString alloc]initWithFormat:@"%d",answer];
+    if([answerButton1.titleLabel.text isEqualToString: ans] )
     {
-        total++;
-    }
-    else
-    {
-        total++;
-        correct++;
-    }
-    if (total>10) 
+		NSLog(@"correct");
+		correct++;
+	}
+	[ans release];
+	
+	total++;
+    if (total > 100) 
     {
         [self runGameState2];
-
     }	
 }
 
 
 -(void)timeOver{
-    if(total<11){
+	NSLog(@"in method timeover");
+    if(total >= 100) {
         [self runGameState2];
     }
     else {  
@@ -66,10 +71,14 @@
 
 
 -(void)runGame{
+	NSLog(@"in method rungame");
     gameTime=[NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(buttonMove) userInfo:nil repeats:YES];
 }
 
--(void)runGameState2{
+-(void)runGameState2
+{
+	NSLog(@"game over");
+	
     answer1.userInteractionEnabled=NO;
     answer2.userInteractionEnabled=NO;
     answer3.userInteractionEnabled=NO;
@@ -101,7 +110,7 @@
     [self flicker];
     [self.view addSubview:finshView];
     [self flicker];
-    if (correct>10*0.8) {
+    if (correct > 7) {
         NSLog(@"正确");
     }
     else
@@ -133,41 +142,52 @@
     isHalfAnimation = YES;
 }
 
--(void)changeAccordingSelectQuestionSender:(int)questionSort {
-    generateQuestion(selectQuestionSender, &num1, &num2, &symbol, options, &answer);
-    NSString *questionText = [[NSString alloc]initWithFormat:@"%d %c %d", num1, symbol, num2];
+-(void)getQuestionAndOptions:(int)questionSort {
+	NSLog(@"in method getQuestionAndOptions");
+	int options_c[4];
+	
+    generateQuestion(selectQuestionSender, &num1, &num2, &symbol, options_c, &answer);
+	option0 = options_c[0];
+	option1 = options_c[1];
+	option2 = options_c[2];
+	option3 = options_c[3];
+}
+
+
+
+-(void)revealQuestionAndAnswer {    
+	NSLog(@"in method revealQuestionAndAnswer");	
+	[self getQuestionAndOptions:selectQuestionSender];
+	
+	NSString *ans1 = [[NSString alloc]initWithFormat:@"%d",option0];
+	NSString *ans2 = [[NSString alloc]initWithFormat:@"%d",option1];
+	NSString *ans3 = [[NSString alloc]initWithFormat:@"%d",option2];
+	NSString *ans4 = [[NSString alloc]initWithFormat:@"%d",option3];
+
+    [answer1 setTitle:ans1 forState:NO];
+    [answer2 setTitle:ans2 forState:NO];
+    [answer3 setTitle:ans3 forState:NO];
+    [answer4 setTitle:ans4 forState:NO];
+
+	[ans1 release];
+	[ans2 release];
+	[ans3 release];
+	[ans4 release];
+	
+	NSString *questionText = [[NSString alloc]initWithFormat:@"%d %c %d", num1, symbol, num2];
     question.text = questionText;
     [questionText release];
 }
 
-
-}
--(void)changeNumAndCheckAnswer {
-    NSString *itemText[3];
-    int i;
-
-    [self changeAccordingSelectQuestionSender:selectQuestionSender];
-
-    for (i = 0; i < 4; i++) {
-        itemText[i] = @"%s", options[i];
-    }
-    [answer1 setTitle:itemText[0] forState:NO];
-    [answer2 setTitle:itemText[1] forState:NO];
-    [answer3 setTitle:itemText[2] forState:NO];
-    [answer4 setTitle:itemText[3] forState:NO];
-
-    for (i = 0; i < 4; i++) {
-        [itemText[i] release];
-    }
-}
-
--(void)buttonFly{
+-(void)buttonFly
+{
+	NSLog(@"in method buttonfly");
     [UIView beginAnimations:nil context:answer1];//开始动画
     [UIView beginAnimations:nil context:answer2];
     [UIView beginAnimations:nil context:answer3];
     [UIView beginAnimations:nil context:answer4];
     [UIView setAnimationDuration:0.5];
-    answer1.frame = CGRectMake(393, answer1.frame.origin.y,answer1.frame.size.width, answer1.frame.size.height);//
+    answer1.frame = CGRectMake(393, answer1.frame.origin.y,answer1.frame.size.width, answer1.frame.size.height);
     answer2.frame = CGRectMake(393, answer2.frame.origin.y,answer2.frame.size.width, answer2.frame.size.height);
     answer3.frame = CGRectMake(393, answer3.frame.origin.y,answer3.frame.size.width, answer3.frame.size.height);
     answer4.frame = CGRectMake(393, answer4.frame.origin.y,answer4.frame.size.width, answer4.frame.size.height);
@@ -176,71 +196,46 @@
 }
 
 -(void)buttonMove {
-    if(!buttonPressed)//如果没有点击按钮，按钮正常移动
+	NSLog(@"in method button__move");
+    if(!buttonPressed)
     {
-    if (answer2.frame.origin.x<392){
-    answer2.frame = CGRectMake(answer2.frame.origin.x+speed,
-       answer2.frame.origin.y,
-       answer2.frame.size.width,
-       answer2.frame.size.height);
-    answer1.frame = CGRectMake(answer1.frame.origin.x+speed,
-       answer1.frame.origin.y,
-       answer1.frame.size.width,
-       answer1.frame.size.height);
-    answer3.frame = CGRectMake(answer3.frame.origin.x+speed,
-       answer3.frame.origin.y,
-       answer3.frame.size.width,
-       answer3.frame.size.height);
-    answer4.frame = CGRectMake(answer4.frame.origin.x+speed,
-       answer4.frame.origin.y,
-       answer4.frame.size.width,
-       answer4.frame.size.height);
-    }
-    else
-    {
-    answer2.frame = CGRectMake(-72,
-       answer2.frame.origin.y,
-       answer2.frame.size.width,
-       answer2.frame.size.height);
-
-    answer3.frame = CGRectMake(-72, 
-       answer3.frame.origin.y,
-       answer3.frame.size.width,
-       answer3.frame.size.height);
-
-    answer4.frame = CGRectMake(-72, 
-       answer4.frame.origin.y,
-       answer4.frame.size.width,
-       answer4.frame.size.height);
-
-    answer1.frame = CGRectMake(-72, 
-       answer1.frame.origin.y,
-       answer1.frame.size.width,
-       answer1.frame.size.height);
-    [self changeNumAndCheckAnswer];//出界后就便换
-
-    }
+		if (answer2.frame.origin.x<392){
+			answer2.frame = CGRectMake(answer2.frame.origin.x+speed, answer2.frame.origin.y, answer2.frame.size.width, answer2.frame.size.height);
+			answer1.frame = CGRectMake(answer1.frame.origin.x+speed, answer1.frame.origin.y, answer1.frame.size.width, answer1.frame.size.height);
+			answer3.frame = CGRectMake(answer3.frame.origin.x+speed, answer3.frame.origin.y, answer3.frame.size.width, answer3.frame.size.height);
+			answer4.frame = CGRectMake(answer4.frame.origin.x+speed, answer4.frame.origin.y, answer4.frame.size.width, answer4.frame.size.height);
+		}
+		else {
+			NSLog(@"time out!");
+			//total++;
+			[self revealQuestionAndAnswer];
+			answer2.frame = CGRectMake(-72, answer2.frame.origin.y, answer2.frame.size.width, answer2.frame.size.height);
+			answer3.frame = CGRectMake(-72, answer3.frame.origin.y, answer3.frame.size.width, answer3.frame.size.height);
+			answer4.frame = CGRectMake(-72, answer4.frame.origin.y, answer4.frame.size.width, answer4.frame.size.height);
+			answer1.frame = CGRectMake(-72, answer1.frame.origin.y, answer1.frame.size.width, answer1.frame.size.height);			
+		}
     }	
     else
     {
-    [self buttonFly];
-    [self changeNumAndCheckAnswer];
-    buttonPressed=NO;
+		[self buttonFly];
+		[self revealQuestionAndAnswer];
+		buttonPressed=NO;
     }
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	NSLog(@"view did load");
     total=0;
     correct=0;
-    [self changeNumAndCheckAnswer];
+	buttonPressed = NO;
+    [self revealQuestionAndAnswer];
     [self runGame];
     answer1.userInteractionEnabled=YES;
     answer2.userInteractionEnabled=YES;
     answer3.userInteractionEnabled=YES;
     answer4.userInteractionEnabled=YES;
-    [NSTimer scheduledTimerWithTimeInterval:60 target:self selector:@selector(timeOver) userInfo:nil 
-    repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:60 target:self selector:@selector(timeOver) userInfo:nil repeats:NO];
 }
 
 

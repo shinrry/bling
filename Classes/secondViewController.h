@@ -10,8 +10,9 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface secondViewController : UIViewController {
-        int num1, num2, answer, options[4], total, correct;
+        int num1, num2, answer, total, correct;
         char symbol;
+	int option0, option1, option2, option3;
 	UIButton *answer1,*answer2,*answer3,*answer4;
 	UILabel *question;
 	NSTimer *gameTime;
@@ -25,18 +26,19 @@
 }
 
 @property int num1, num2, answer, total, correct;
-@property int *options;
+@property int option0, option1, option2, option3;
+@property char symbol;
 
 @property (nonatomic,retain) CATransition *lastAnimation;
-@property(retain,nonatomic)IBOutlet UIButton *answer1,*answer2,*answer3,*answer4;
-@property(retain,nonatomic)IBOutlet UILabel *question;
-@property(retain,nonatomic)IBOutlet UIView *finshView;
-@property(retain,nonatomic)NSTimer *gameTime;
-@property(nonatomic)BOOL buttonPressed,runNotRepeat;
+@property (retain,nonatomic)IBOutlet UIButton *answer1,*answer2,*answer3,*answer4;
+@property (retain,nonatomic)IBOutlet UILabel *question;
+@property (retain,nonatomic)IBOutlet UIView *finshView;
+@property (retain,nonatomic)NSTimer *gameTime;
+@property (nonatomic)BOOL buttonPressed,runNotRepeat;
 
 - (IBAction)answer1Pressed:(UIButton*)answerButton1;
-- (void)changeAccordingSelectQuestionSender:(int)questionSort;
-- (void)changeNumAndCheckAnswer;
+- (void)getQuestionAndOptions:(int)questionSort;
+- (void)revealQuestionAndAnswer;
 - (void)buttonFly;
 - (void)runGame;
 - (void)runGameState2;
