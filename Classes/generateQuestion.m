@@ -8,6 +8,7 @@
 
 #include <stdlib.h>
 #include "generateQuestion.h"
+#include <stdio.h>
 
 #define max(a,b) a>b?a:b
 #define min(a,b) a<b?a:b
@@ -40,12 +41,13 @@ int getRandom(int begin, int end) // containing begin and end
 
 int getBinaryRandom()
 {
-    return random() & 01;
+    return random() % 2;
 }
 
-void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int options[])
+void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int options[], int *pAnswer)
 {
     int num1, num2, range, answer, wrongAnswer[3];
+    char symbol;
 	
     if (kind < 6) {
         if (ADD == getBinaryRandom()) {
@@ -72,7 +74,7 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
         case 3:
         case 4:
         case 5:
-            if (ADD == *pSymbol) {
+            if (ADD == symbol) {
                 answer = num1 + num2;
             }
             else {
@@ -92,8 +94,12 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
 	else {
 		getWrongNum(num1, wrongAnswer);
 	}
-
     getOptions(answer, wrongAnswer, options);
+
+    *pNum1 = num1;
+    *pNum2 = num2;
+    *pAnswer = answer;
+    *pSymbol = symbol;
 }
 
 void getOptions(int answer, const int wrongAnswer[], int options[])
@@ -121,7 +127,7 @@ void getTwoRandomFromOne(int *pa, int *pb, int range)
     int a, b;
 	
     a = getRandomFromOne(range);
-    b = getRandomFromOne(range - *pa);
+    b = getRandomFromOne(range - a);
     if (a < b) {
         swap(&a, &b);
     } //assert a >= b
@@ -232,3 +238,21 @@ int getGeneratorRange(int kind)
             return 99;
     }
 }	
+
+/*int main(int argc, const char *argv[])
+{
+    int kind, num1, num2, options[4], answer, i; 
+    char symbol;
+
+    kind = 1;
+    generateQuestion(kind, &num1, &num2, &symbol, options, &answer);
+
+    printf("%d %c %d = %d\n", num1, symbol, num2, answer);
+    for (i = 0; i < 4; i++) {
+        printf("option %d : %d\n", i, options[1]);
+    }
+    num1 = random();
+    printf("%d\n", num1);
+    
+    return 0;
+}*/
