@@ -33,18 +33,18 @@
 @property (retain,nonatomic)IBOutlet UIButton *answer1,*answer2,*answer3,*answer4;
 @property (retain,nonatomic)IBOutlet UILabel *question;
 @property (retain,nonatomic)IBOutlet UIView *finshView;
-@property (retain,nonatomic)NSTimer *gameTime;
+@property (retain,nonatomic)NSTimer *mytimer;
 @property (nonatomic)BOOL buttonPressed,runNotRepeat;
 
+- (id)initWithNibName:(NSString*)nibName bundle:(NSBundle*)nibBundle onPage:(int)buttonId;
+- (void)play;
 - (IBAction)answer1Pressed:(UIButton*)answerButton1;
-- (void)getQuestionAndOptions:(int)questionSort;
 - (void)revealQuestionAndAnswer;
-- (void)buttonFly;
-- (void)runGame;
-- (void)runGameState2;
+- (void)timeout;
+- (void)gameover;
 - (void)finshButton1Pressed;
 - (void)finshButton2Pressed;
 - (void)flicker;
-- (id)initWithNibName:(NSString*)nibName bundle:(NSBundle*)nibBundle onPage:(int)buttonId;
+-(void)revealButtonsInLeft
 
 @end
