@@ -1,11 +1,3 @@
-//
-//  secondViewController.m
-//  Bling Home
-//
-//  Created by He Anda
-//  Copyright 2011 TJU. All rights reserved.
-//
-
 #import "secondViewController.h"
 #import "nstimer.h"
 #import "generateQuestion.h"
@@ -14,11 +6,13 @@
 
 @synthesize num1, num2, answer, symbol, question, total, correct;
 @synthesize option0, option1, option2, option3;
-@synthesize buttonPressed,runNotRepeat,gameTime;//moveVelocity;
+@synthesize mytimer;
 @synthesize answer1,answer2,answer3,answer4;
 @synthesize lastAnimation;
 @synthesize finshView;
+
 #define speed 2.5
+#define TOTAL_QUESTION 5
 
 - (id)initWithNibName:(NSString*)nibName bundle:(NSBundle*)nibBundle onPage:(int)button_id
 {
@@ -29,13 +23,13 @@
     }
     selectQuestionSender = button_id;
 
-NSLog(@"entering second view");
+    NSLog(@"entering second view");
     return self;
 }
 
 - (void)play
 {
-    if (total++ <= 10) {
+    if (total < TOTAL_QUESTION) {
         [self revealButtonsInLeft];
         [self revealQuestionAndAnswer];
         if (total) {
@@ -45,6 +39,7 @@ NSLog(@"entering second view");
             mytimer = [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(buttonMove) userInfo:nil repeats:YES];
             NSLog(@"selector set");
         }
+		total++;
     }
     else {
         [self gameover];
@@ -59,20 +54,20 @@ NSLog(@"entering second view");
         correct++;
     }
     [ans release];
-    NSLog(@"you made an answer, total: %d; correct: %d", total, correct);
+    NSLog(@"you've made an answer, total: %d; correct: %d", total, correct);
     [self play];
 }
 
 - (void)timeout
 {
-    NSLog(@"time out!");
+    NSLog(@"time out! total: %d; correct: %d", total, correct);
     [mytimer pause];
     [self play];
 }
 
 -(void)gameover
 {
-    NSLog(@"game over");
+    double percent;
 
     answer1.userInteractionEnabled=NO;
     answer2.userInteractionEnabled=NO;
@@ -80,51 +75,64 @@ NSLog(@"entering second view");
     answer4.userInteractionEnabled=NO;
     [gameTime invalidate];
 
-    CGRect lastViewFrame=CGRectMake(20, 20, 280, 179);//某一个四边形
-    finshView=[[UIView alloc] initWithFrame:lastViewFrame];
+    CGRect lastViewFrame=CGRectMake(20, 20, 280, 179);
+    finshView = [[UIView alloc] initWithFrame:lastViewFrame];
     finshView.backgroundColor=[UIColor blackColor];
-    finshView.alpha=0.7;	
-    UIButton* finshButton1= [[UIButton alloc] initWithFrame:CGRectMake(60,142, 72, 37)];
-    UIButton* finshButton2= [[UIButton alloc] initWithFrame:CGRectMake(174,142, 72, 37)];
+    finshView.alpha = 0.2;	
+    
+    percent = ((double)correct) / total;
+    NSString *questionText;
+    if (percent >= 0.99) {
+        questionText = [[NSString alloc]initWithFormat:@"perfect"];
+    }
+    else if (percent >= 0.5) {
+        questionText = [[NSString alloc]initWithFormat:@"well done"];
+    }
+    else if (percent >= 0.5) {
+        questionText = [[NSString alloc]initWithFormat:@"good"];
+    }
+    else if (percent >= 0.2) {
+        questionText = [[NSString alloc]initWithFormat:@"bad"];
+    }
+    else {
+        questionText = [[NSString alloc]initWithFormat:@"are you deliberate?"];
+    }
+    question.text = questionText;
+    [questionText release];
+    
+    UIButton* retryButton = [[UIButton alloc] initWithFrame:CGRectMake(60,142, 72, 37)];
+    UIButton* returnButton = [[UIButton alloc] initWithFrame:CGRectMake(174,142, 72, 37)];
     [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [finshButton1 setBackgroundImage:nil forState:UIControlStateNormal];
-    [finshButton1 addTarget:self 
-       action:@selector(finshButton1Pressed)
-    forControlEvents:UIControlEventTouchDown]; 
-    [finshButton2 setBackgroundImage:nil forState:UIControlStateNormal];
-    [finshButton2 addTarget:self action:@selector(finshButton2Pressed)
-    forControlEvents:UIControlEventTouchDown];
-    [finshButton1 setBackgroundColor:[UIColor blueColor]];
-    [finshButton2 setBackgroundColor:[UIColor whiteColor]];
-    //finshButton2.hidden=YES;
-    [finshView addSubview:finshButton1];
-    [finshView addSubview:finshButton2];
-    [finshButton1 release];
-    [finshButton2 release];
-    //[self a:@selector(flicker) interval:1];
+    [retryButton setBackgroundImage:nil forState:UIControlStateNormal];
+    [retryButton addTarget:self action:@selector(retry) forControlEvents:UIControlEventTouchDown]; 
+    [returnButton setBackgroundImage:nil forState:UIControlStateNormal];
+    [returnButton addTarget:self action:@selector(returnToMainMenu) forControlEvents:UIControlEventTouchDown];
+    [retryButton setBackgroundColor:[UIColor purpleColor]];
+    [returnButton setBackgroundColor:[UIColor greenColor]];
+    [finshView addSubview:retryButton];
+    [finshView addSubview:returnButton];
+    [retryButton setTitle:@"retry" forState:UIControlStateNormal];
+    [returnButton setTitle:@"return" forState:UIControlStateNormal];
+    [retryButton release];
+    [returnButton release];
     [self flicker];
     [self.view addSubview:finshView];
     [self flicker];
-    if (correct > 7) {
-        NSLog(@"正确");
-    }
-    else
-        NSLog(@"11题结束后错误");
 }
 
--(void)finshButton1Pressed{
+-(void)retry{
     [finshView removeFromSuperview];
     [self viewDidLoad];
 }
 
--(void)finshButton2Pressed{
+-(void)returnToMainMenu{
     [self.view removeFromSuperview];
 }
 
 -(void)flicker{
     CATransition *animation = [CATransition animation];
     animation.delegate = self;
-    animation.duration = 1.5f;
+    animation.duration = 2.0;
     animation.timingFunction = UIViewAnimationCurveEaseInOut;
     animation.fillMode = kCAFillModeForwards;
     animation.endProgress = 1;
@@ -134,13 +142,11 @@ NSLog(@"entering second view");
     self.lastAnimation = animation;
 
     [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:0];//Just remove, not release or dealloc
-    isHalfAnimation = YES;
 }
 
 -(void)revealQuestionAndAnswer {    
     int options_c[4];
-
-    NSLog(@"in method revealQuestionAndAnswer");	
+	
     generateQuestion(selectQuestionSender, &num1, &num2, &symbol, options_c, &answer);
     option0 = options_c[0];
     option1 = options_c[1];
@@ -161,14 +167,19 @@ NSLog(@"entering second view");
     [ans2 release];
     [ans3 release];
     [ans4 release];
-
-    NSString *questionText = [[NSString alloc]initWithFormat:@"%d %c %d", num1, symbol, num2];
+    
+    NSString *questionText;
+    if ('/' == symbol) {
+        questionText = [[NSString alloc]initWithFormat:@"%d ÷ %d", num1, num2];
+    }
+    else {
+        questionText = [[NSString alloc]initWithFormat:@"%d %c %d", num1, symbol, num2];
+    }
     question.text = questionText;
-    [questionText release];
+    [questionText release];	
 }
 
 -(void)buttonMove {
-    NSLog(@"in method button__move");
     if (answer2.frame.origin.x<392) {
         answer2.frame = CGRectMake(answer2.frame.origin.x+speed, answer2.frame.origin.y, answer2.frame.size.width, answer2.frame.size.height);
         answer1.frame = CGRectMake(answer1.frame.origin.x+speed, answer1.frame.origin.y, answer1.frame.size.width, answer1.frame.size.height);
@@ -182,19 +193,21 @@ NSLog(@"entering second view");
 
 -(void) revealButtonsInLeft
 {
-    answer1.frame = CGRectMake(-72, answer1.frame.origin.y, answer1.frame.size.width, answer1.frame.size.height);			
-    answer2.frame = CGRectMake(-72, answer2.frame.origin.y, answer2.frame.size.width, answer2.frame.size.height);
-    answer3.frame = CGRectMake(-72, answer3.frame.origin.y, answer3.frame.size.width, answer3.frame.size.height);
-    answer4.frame = CGRectMake(-72, answer4.frame.origin.y, answer4.frame.size.width, answer4.frame.size.height);
+    answer1.frame = CGRectMake(0, answer1.frame.origin.y, answer1.frame.size.width, answer1.frame.size.height);			
+    answer2.frame = CGRectMake(0, answer2.frame.origin.y, answer2.frame.size.width, answer2.frame.size.height);
+    answer3.frame = CGRectMake(0, answer3.frame.origin.y, answer3.frame.size.width, answer3.frame.size.height);
+    answer4.frame = CGRectMake(0, answer4.frame.origin.y, answer4.frame.size.width, answer4.frame.size.height);
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-    NSLog(@"view did load");
     total = 0;
     correct = 0;
-    buttonPressed = NO;
-    [self revealQuestionAndAnswer];
+    answer1.userInteractionEnabled=YES;
+    answer2.userInteractionEnabled=YES;
+    answer3.userInteractionEnabled=YES;
+    answer4.userInteractionEnabled=YES;
+    [self play];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -213,13 +226,12 @@ NSLog(@"entering second view");
 
 - (void)dealloc {
     [finshView release];
-    [gameTime fire];
-    //[stopTime release];
     [question release];
     [answer1 release];
     [answer2 release];
     [answer3 release];
     [answer4 release];
+    [mytimer release];
     [super dealloc];
 }
 

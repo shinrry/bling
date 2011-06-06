@@ -1,14 +1,5 @@
-//
-//  generateQuestion.m
-//  Bling Home
-//
-//  Created by He Anda on 11-5-30.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #include <stdlib.h>
 #include "generateQuestion.h"
-#include <stdio.h>
 
 #define max(a,b) a>b?a:b
 #define min(a,b) a<b?a:b
@@ -58,7 +49,7 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
         }
     }
     else if (6 == kind) {
-        symbol = '*';
+        symbol = 'x';
     }
     else {
         symbol = '/';
@@ -84,27 +75,31 @@ void generateQuestion(int kind, int *pNum1, int *pNum2, char *pSymbol, int optio
         case 6:
         case 7:
         case 8:
+            num1++;
+            num2++;
             answer = num1 * num2;
             break;
-    }// num1 >= num2
+    }
 	
 	if (kind < 7) {
 		getWrongAnswers(kind, answer, wrongAnswer);
+        getOptions(answer, wrongAnswer, options);
+        
+        *pNum1 = num1;
+        *pNum2 = num2;
+        *pAnswer = answer;
+        
 	}
 	else {
 		getWrongNum(num1, wrongAnswer);
+        getOptions(num1, wrongAnswer, options);
+        
+        *pNum1 = answer;
+        *pNum2 = num2;
+        *pAnswer = num1;
 	}
-    getOptions(answer, wrongAnswer, options);
 
-    *pNum1 = num1;
-    *pNum2 = num2;
-    *pAnswer = answer;
     *pSymbol = symbol;
-	
-	int i;
-	for (i = 0; i < 4; i++) {
-		//NSLog(@"options %d : %d", i, options[i]);
-	}
 }
 
 void getOptions(int answer, const int wrongAnswer[], int options[])
@@ -125,21 +120,13 @@ void getOptions(int answer, const int wrongAnswer[], int options[])
 	options[wrongPosition2] = wrongAnswer[1];
 	
 	options[6 - rightPosition - wrongPosition1 - wrongPosition2] = wrongAnswer[2];
-	
-	/*int i;
-	for (i = 0; i < 3; i++) {
-		//NSLog(@"wrong options %d : %d", i, wrongAnswer[i]);
-	}
-	for (i = 0; i < 4; i++) {
-		//NSLog(@"options %d : %d", i, options[i]);
-	}*/
 }
 
 void getTwoRandomFromOne(int *pa, int *pb, int range)
 {
     int a, b;
 	
-    a = getRandomFromOne(range);
+    a = getRandomFromOne(range - 1);
     b = getRandomFromOne(range - a);
     if (a < b) {
         swap(&a, &b);
@@ -208,15 +195,12 @@ void getWrongAnswers(int kind, int answer, int wrongAnswer[])
 	else {
 		do {
 			wrongAnswer[0] = getRandomFromOne(range);
-			//NSLog(@"%d", wrongAnswer[0]);
 		} while (wrongAnswer[0] == answer);
 		do {
 			wrongAnswer[1] = getRandomFromOne(range);
-			//NSLog(@"%d", wrongAnswer[1]);
 		} while (wrongAnswer[1] == answer || wrongAnswer[1] == wrongAnswer[0]);
 		do {
 			wrongAnswer[2] = getRandomFromOne(range);
-			//NSLog(@"%d", wrongAnswer[2]);
 		} while (wrongAnswer[2] == answer || wrongAnswer[2] == wrongAnswer[0] || wrongAnswer[2] == wrongAnswer[1]);
 	}
 
@@ -254,9 +238,6 @@ int getGeneratorRange(int kind)
 	switch (kind) {
         case 1:
         case 2:
-        case 6:
-        case 7:
-        case 8:
             return 9;
         case 3:
             return 19;
@@ -264,23 +245,9 @@ int getGeneratorRange(int kind)
             return 49;
         case 5:
             return 99;
+        case 6:
+        case 7:
+        case 8:
+            return 8;
     }
 }	
-
-/*int main(int argc, const char *argv[])
-{
-    int kind, num1, num2, options[4], answer, i; 
-    char symbol;
-
-    kind = 1;
-    generateQuestion(kind, &num1, &num2, &symbol, options, &answer);
-
-    printf("%d %c %d = %d\n", num1, symbol, num2, answer);
-    for (i = 0; i < 4; i++) {
-        printf("option %d : %d\n", i, options[1]);
-    }
-    num1 = random();
-    printf("%d\n", num1);
-    
-    return 0;
-}*/

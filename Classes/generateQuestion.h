@@ -1,12 +1,3 @@
-//
-//  generateQuestion.h
-//  Bling Home
-//
-//  Created by He Anda on 11-5-30.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
-
 void swap(int *pa, int *pb);
 int getRandomFromZero(int range);
 int getRandomFromOne(int range);

@@ -21,8 +21,6 @@
 		96371042135FBE5900580C31 /* firstViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96371040135FBE5900580C31 /* firstViewController2.xib */; };
 		96371046135FBE8B00580C31 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96371044135FBE8B00580C31 /* secondViewController.m */; };
 		96371047135FBE8B00580C31 /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96371045135FBE8B00580C31 /* secondViewController.xib */; };
-		96D1FE2F137D3567007E7E4D /* finshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D1FE2E137D3567007E7E4D /* finshView.xib */; };
-		96E07B2E137BD480005005BA /* firstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E07B2D137BD480005005BA /* firstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +47,6 @@
 		96371043135FBE8B00580C31 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
 		96371044135FBE8B00580C31 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		96371045135FBE8B00580C31 /* secondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = secondViewController.xib; path = Classes/secondViewController.xib; sourceTree = "<group>"; };
-		96D1FE2E137D3567007E7E4D /* finshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = finshView.xib; sourceTree = "<group>"; };
-		96E07B2D137BD480005005BA /* firstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = firstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +118,6 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				96371040135FBE5900580C31 /* firstViewController2.xib */,
 				96371045135FBE8B00580C31 /* secondViewController.xib */,
-				96D1FE2E137D3567007E7E4D /* finshView.xib */,
-				96E07B2D137BD480005005BA /* firstViewController.xib */,
 				8D1107310486CEB800E47090 /* Bling_Home-Info.plist */,
 			);
 			name = Resources;
@@ -192,8 +186,6 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				96371042135FBE5900580C31 /* firstViewController2.xib in Resources */,
 				96371047135FBE8B00580C31 /* secondViewController.xib in Resources */,
-				96E07B2E137BD480005005BA /* firstViewController.xib in Resources */,
-				96D1FE2F137D3567007E7E4D /* finshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,5 @@
-//
-//  Bling_HomeAppDelegate.m
-//  Bling Home
-//
-//  Created by Y WT on 11-4-21.
-//  Copyright 2011 TJU. All rights reserved.
-//
-
 #import "Bling_HomeAppDelegate.h"
-#import"indexViewController.h"
+#import "indexViewController.h"
 
 @implementation Bling_HomeAppDelegate
 
